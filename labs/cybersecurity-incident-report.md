@@ -11,7 +11,7 @@ The IT manager starts by implementing the National Institute of Standards and Te
 
 The goal of the audit is to provide an overview of the risks and/or fines that the company might experience due to the current state of their security posture.  
 
-**Your task:** Review the IT manager’s scope, goals, and risk assessment report. Then, perform an internal audit by completing a controls and compliance checklist.  
+**The task:** Review the IT manager’s scope, goals, and risk assessment report. Then, perform an internal audit by completing a controls and compliance checklist.  
 ## Audit Scope and Goals  
 
 The IT manager at Botium Toys has defined the following scope and goals for the internal IT audit:  
@@ -27,7 +27,6 @@ The IT manager at Botium Toys has defined the following scope and goals for the 
 - Provide recommendations for strengthening security posture.  
 - Reduce the likelihood of data breaches or system downtime.  
 - Support the company’s growth while maintaining compliance and trust with customers.  
-## IT Assets List  
 ## IT Assets List  
 
 The following assets are currently managed by the IT department:  
