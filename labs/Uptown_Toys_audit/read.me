@@ -1,1 +1,199 @@
+This scenario is based on a fictional company:
 
+Uptown Toys is a small U.S. business that develops and sells toys. The business has a single physical location, which serves as their main office, a storefront, and warehouse for their products. However, Uptown Toy’s online presence has grown, attracting customers in the U.S. and abroad. As a result, their information technology (IT) department is under increasing pressure to support their online market worldwide. 
+
+The manager of the IT department has decided that an internal IT audit needs to be conducted. She's worried about maintaining compliance and business operations as the company grows without a clear plan. She believes an internal audit can help better secure the company’s infrastructure and help them identify and mitigate potential risks, threats, or vulnerabilities to critical assets. The manager is also interested in ensuring that they comply with regulations related to internally processing and accepting online payments and conducting business in the European Union (E.U.).   
+
+The IT manager starts by implementing the National Institute of Standards and Technology Cybersecurity Framework (NIST CSF), establishing an audit scope and goals, listing assets currently managed by the IT department, and completing a risk assessment. The goal of the audit is to provide an overview of the risks and/or fines that the company might experience due to the current state of their security posture.
+
+The task is to review the IT manager’s scope, goals, and risk assessment report. Then, perform an internal audit by completing a controls and compliance checklist. 
+
+Auditing of Controls and Compliance Checklist
+
+This document presents the controls and compliance checklist for Uptown Toys’ internal IT security audit, aligned with the NIST Cybersecurity Framework (NIST CSF). It evaluates whether controls and compliance best practices are in place, based on the provided scope, goals, risk assessment report, and control categories.
+Controls Assessment Checklist
+
+
+
+Control
+In Place?
+Notes
+
+
+
+Least Privilege
+No
+Access controls for least privilege not implemented. All employees can access internally stored data, including cardholder data and PII/SPII.
+
+
+Disaster Recovery Plans
+No
+No disaster recovery plans, increasing risk of business disruption.
+
+
+Password Policies
+Yes
+Policy exists but is inadequate (e.g., lacks complexity requirements like 8+ characters, mixed case, numbers, special characters).
+
+
+Separation of Duties
+No
+Not implemented, raising risk of insider threats or errors.
+
+
+Firewall
+Yes
+Firewall with defined security rules is in place to filter malicious traffic.
+
+
+Intrusion Detection System (IDS)
+No
+No IDS installed, limiting ability to detect anomalous network activity.
+
+
+Backups
+No
+No backups of critical data, risking data loss in an incident.
+
+
+Antivirus Software
+Yes
+Installed and regularly monitored by the IT department.
+
+
+Manual Monitoring, Maintenance, and Intervention for Legacy Systems
+Yes
+In place but lacks a regular schedule and clear intervention methods.
+
+
+Encryption
+No
+No encryption for credit card data, violating PCI DSS requirements.
+
+
+Password Management System
+No
+No centralized system, causing productivity issues with password resets.
+
+
+Locks (Offices, Storefront, Warehouse)
+Yes
+Sufficient physical locks are in place.
+
+
+Closed-Circuit Television (CCTV) Surveillance
+Yes
+Up-to-date CCTV surveillance implemented for physical security.
+
+
+Fire Detection/Prevention (Fire Alarm, Sprinkler System)
+Yes
+Functioning fire detection and prevention systems in place.
+
+
+Compliance Checklist
+Payment Card Industry Data Security Standard (PCI DSS)
+
+
+
+Best Practice
+Adhered?
+Notes
+
+
+
+Only authorized users have access to customers’ credit card information
+No
+All employees can access cardholder data, increasing risk of unauthorized access.
+
+
+Credit card information is stored, accepted, processed, and transmitted in a secure environment
+No
+No encryption used, failing to secure credit card data.
+
+
+Implement data encryption procedures
+No
+No encryption for credit card transaction touchpoints.
+
+
+Adopt secure password management policies
+No
+Password policy is inadequate, not meeting PCI DSS standards.
+
+
+General Data Protection Regulation (GDPR)
+
+
+
+Best Practice
+Adhered?
+Notes
+
+
+
+E.U. customers’ data is kept private/secured
+No
+PII/SPII accessible to all employees and not encrypted, violating GDPR.
+
+
+Plan to notify E.U. customers within 72 hours if data is compromised
+Yes
+Notification plan is established and compliant with GDPR.
+
+
+Ensure data is properly classified and inventoried
+No
+Inadequate asset management and classification, hindering GDPR compliance.
+
+
+Enforce privacy policies, procedures, and processes
+Yes
+Privacy policies are developed and enforced among employees.
+
+
+System and Organizations Controls (SOC Type 1, Type 2)
+
+
+
+Best Practice
+Adhered?
+Notes
+
+
+
+User access policies are established
+No
+Lack of least privilege and separation of duties policies.
+
+
+Sensitive data (PII/SPII) is confidential/private
+No
+PII/SPII is accessible to all employees, not secured.
+
+
+Data integrity ensures consistency, completeness, accuracy, and validation
+Yes
+IT department ensures data integrity with integrated controls.
+
+
+Data is available to individuals authorized to access it
+Yes
+Availability controls are in place.
+
+
+Recommendations
+To address the high risk score (8/10) and improve Uptown Toys’ security posture, the IT manager should prioritize the following:
+
+Implement Least Privilege and Separation of Duties: Restrict access to sensitive data (e.g., cardholder data, PII/SPII) to authorized personnel only to reduce insider threats.
+Deploy Encryption: Encrypt credit card data during storage, processing, and transmission to comply with PCI DSS and protect customer data.
+Establish Disaster Recovery and Backups: Create disaster recovery plans and implement regular backups to ensure business continuity.
+Install an Intrusion Detection System (IDS): Enhance network monitoring to detect and respond to potential threats.
+Upgrade Password Policies and Management: Enforce complex passwords (e.g., 8+ characters, mixed case, numbers, special characters) and implement a centralized password management system to improve security and productivity.
+Schedule Legacy System Maintenance: Define regular monitoring and intervention schedules for legacy systems to reduce vulnerabilities.
+Conduct Asset Inventory: Classify and conduct an inventory of assets to support GDPR compliance and improve risk management.
+Perform Regular Audits: Conduct periodic internal audits to maintain compliance and address evolving threats.
+
+These actions will mitigate critical risks, ensure compliance with PCI DSS, GDPR, and SOC, and strengthen Botium Toys’ cybersecurity.
+
+References: Files attached: IT manager’s scope, goals, and risk assessment report
